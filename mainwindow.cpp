@@ -11,7 +11,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     int x = 5;
 
-    int y = x++;
+    int y = x + 1;
 
     qDebug() << y;
 }
